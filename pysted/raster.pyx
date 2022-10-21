@@ -98,8 +98,6 @@ def raster_func_c_self_bleach_split_g(
         k_sted = None
         k_ex = None
 
-        effective = self.get_effective(datamap.pixelsize, p_ex, p_sted)
-
     pre_effective = self.get_effective(datamap.pixelsize, p_ex_roi[0, 0], p_sted_roi[0, 0])
     h, w = pre_effective.shape[0], pre_effective.shape[1]
 
